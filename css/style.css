@@ -8,3 +8,59 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+/*shered style*/
+
+.display-fex{
+    display: flex;
+}
+
+.primary-font{
+ color: #424242;
+}
+
+.secondary-font{
+    color: #727272;
+}
+
+.primary-bg{
+    background: rgba(255, 144, 14, 0.1);
+}
+.secondary-bg{
+
+}
+
+/*header*/
+
+.header{
+
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #131313;
+}
+
+
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
