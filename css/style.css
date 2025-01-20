@@ -19,7 +19,7 @@ html, body {
 
 /*shered style*/
 
-.display-fex {
+.display-flex {
     display: flex;
 
 }
@@ -34,12 +34,19 @@ html, body {
 
 }
 
+main > section{
+    margin-top: 100px;
+}
+
 .primary-font{
  color: #424242;
 }
 
 .secondary-font{
     color: #727272;
+}
+.worning-font{
+    color: #FF900E;
 }
 
 .primary-bg{
@@ -74,7 +81,7 @@ html, body {
     font-size: 18px;
 }
 
-.navbar, .banner {
+.navbar, .banner, main{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -95,8 +102,32 @@ html, body {
 
 .banner-img img{
     width: 100%;
+    margin-bottom: 24px;
 }
- 
+
+
+/* styles for teams */
+
+.teams{
+    align-items: center;
+}
+
+.our-teams-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-featurs{
+    margin-left: 80px;
+}
+.feature-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#quick-list{
+    font-weight: 500;
+}
 
 
 /* ===========================*/
